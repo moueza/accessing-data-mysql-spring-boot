@@ -27,6 +27,7 @@ public class MainController {
 		return "Saved";
 	}
 
+	/**http://localhost:9048/demo/all*/
 	@GetMapping(path = "/all")
 	public @ResponseBody Iterable<User> getAllUsers() {
 		// This returns a JSON or XML with the users
